@@ -1,0 +1,27 @@
+.offer {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10vh 0 10vh;
+    background-image: radial-gradient(transparent, black), url("../img/pattern.png");
+    background-position: center;
+}
+
+.offer__heading {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+.offer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.offer__text {
+    width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+}

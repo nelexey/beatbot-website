@@ -1,0 +1,67 @@
+.home {
+    margin-top: 5vh;
+}
+
+.home__username {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+
+.home__info {
+    font-size: 18px;
+    color: #9a9a9a;
+}
+
+.home__flex {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 60px;
+}
+
+.home__functionality {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home__button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #9370db;
+    color: #9370db;
+    padding: 6px 10px;
+    background-color: rgba(68, 43, 117, 0.1);;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: linear 0.1s;
+
+    cursor: pointer;
+}
+
+.home__button:hover {
+    color: #764acf;
+    border: 1px solid #764acf;
+}
+
+.home__button:active {
+    color: #633eb0;
+    border: 1px solid #633eb0;
+}
+
+.home__grid {
+    display: grid;
+    grid-gap: 18px 18px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.home__grid__container {
+    width: 90%;
+    margin: 5% 5% 0;
+    padding: 5% 10% 5%;
+    background-image: radial-gradient(transparent, black), url("../img/pattern.png");
+    background-position: center;
+}
